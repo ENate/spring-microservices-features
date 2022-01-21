@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.minejava</groupId>
-		<artifactId>spring-microservices-features</artifactId><!-- lookup parent from repository -->
+		<artifactId>spring-microservice-features</artifactId><!-- lookup parent from repository -->
 	    <version>1.0-SNAPSHOT</version>
 	</parent>
 	<groupId>com.minejava</groupId>

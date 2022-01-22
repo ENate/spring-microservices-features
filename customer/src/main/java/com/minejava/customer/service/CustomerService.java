@@ -1,10 +1,11 @@
 package com.minejava.customer.service;
 
 import com.minejava.customer.model.Customer;
+import com.minejava.customer.request.CustomerRegistrationRequest;
 
 import org.springframework.stereotype.Service;
 
-@Service
+
 public record CustomerService() {
     public void registerCustomer(CustomerRegistrationRequest  request) {
 

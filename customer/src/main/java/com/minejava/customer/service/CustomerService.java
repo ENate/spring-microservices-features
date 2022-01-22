@@ -1,10 +1,12 @@
 package com.minejava.customer.service;
 
+import com.minejava.customer.model.Customer;
+
 import org.springframework.stereotype.Service;
 
 @Service
 public record CustomerService() {
-    public void registerCustomer(CustomerRegistrationRequest request) {
+    public void registerCustomer(CustomerRegistrationRequest  request) {
 
         Customer customer = Customer.builder()
         .firstName(request.firstName())

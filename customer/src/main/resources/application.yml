@@ -8,14 +8,12 @@ spring:
         password: secret
         url: jdbc:postgresql://localhost:5432/customer
         username: admin
-    jpa:
-        hibernate:
-            ddl-auto: create-drop
-        properties:
+        jpa:
+            properties:
+                hibernate:
+                    dialect: org.hibernate.dialect.PostgreSQLDialect
+                    format_sql: 'true'
             hibernate:
-                dialect: org.hibernate.dialect.PostgreSQLDialect
-                format_sql: true
-        hibernate:
-            ddl-auto: update
+                ddl-auto: update
             
-        show-sql: true
+            show-sql: 'true'

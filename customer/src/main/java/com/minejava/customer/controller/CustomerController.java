@@ -1,5 +1,8 @@
 package com.minejava.customer.controller;
 
+import com.minejava.customer.request.CustomerRegistrationRequest;
+import com.minejava.customer.service.CustomerService;
+
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -31,8 +31,9 @@
 				"Pivotal.vscode-boot-dev-pack",
 				"developersoapbox.vscode-springboot-developer-pack",
 				"vscjava.vscode-maven",
-				"bmealhouse.shifty-rainglow"
-
+				"bmealhouse.shifty-rainglow",
+				"esbenp.prettier-vscode",
+				"redhat.vscode-xml"
 			]
 		}
 	},
